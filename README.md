@@ -15,18 +15,31 @@ with a key pointing to an array of data, like this:
 
 ```json
 {
-  "toys": [
+  "weather": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Miami",
+      "condition": "Partly Cloudy"
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Orlando",
+      "condition": "Partly Cloudy"
+    },
+    {
+      "id": 3,
+      "name": "Tampa",
+      "condition": "Sunny"
+    },
+    {
+      "id": 4,
+      "name": "Jacksonville",
+      "condition": "Partly Cloudy"
+    },
+    {
+      "id": 5,
+      "name": "Gainesville",
+      "condition": "Partly Cloudy"
     }
   ]
 }
